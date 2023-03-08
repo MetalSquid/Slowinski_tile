@@ -2,43 +2,81 @@
     outline: dotted red 1px;
 }
 
+html {
+    width: 100%;
+    height: 100%;
+}
+
 .container {
     display: flex;
+    justify-content: center;
+    flex-direction: column;
 
 }
 
 header {
-    display: inline-flexbox;
+    display: flex;
 }
 
 .navbar {
-    display:  inline-flexbox;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+ul {
+    display: flex;
+
+}
+
+banner.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 10%;
+}
+
+.banner {
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
 }
 
 .content {
-    display: inline-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70;
+    display: grid;
 }
 
 .a {
     display: inline-flex;
     background-color: aqua;
+    display: inline-grid;
 }
 
 .b {
     display: inline-flex;
     background-color: blueviolet;
+    display: inline-grid;
 }
 
 .c {
     display: inline-flex;
     background-color: chartreuse;
+    display: inline-grid;
 }
 
 .d {
     display: inline-flex;
     background-color: darkblue;
+    display: inline-grid;
 }
 
 footer {
-    display:inline-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
