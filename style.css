@@ -1,3 +1,44 @@
 * {
-    outline: dotted red;
+    outline: dotted red 1px;
+}
+
+.container {
+    display: flex;
+
+}
+
+header {
+    display: inline-flexbox;
+}
+
+.navbar {
+    display:  inline-flexbox;
+}
+
+.content {
+    display: inline-flexbox;
+}
+
+.a {
+    display: inline-flex;
+    background-color: aqua;
+}
+
+.b {
+    display: inline-flex;
+    background-color: blueviolet;
+}
+
+.c {
+    display: inline-flex;
+    background-color: chartreuse;
+}
+
+.d {
+    display: inline-flex;
+    background-color: darkblue;
+}
+
+footer {
+    display:inline-flexbox;
 }
