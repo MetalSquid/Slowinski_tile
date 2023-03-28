@@ -25,52 +25,109 @@
 </head>
 
 <body>
-    <div class="container">
-        <header>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+    </header>
 
+    <main>
+        <div class="left-panel">
+        </div>
 
-            <nav class="navbar">
+        <div class="center-panel">
 
-                <ul>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Contact</li>
-                </ul>
-            </nav>
+            <section class="intro">
+                <h2>Known for Quality and Experience</h2>
+                <p> Slowinski Tile was founded in 1995 and has spread by word of mouth.
+                    The owner and main tile installer Tony Slowinski is well known as a craftsman of high quality,
+                    and a man of integrity. If you aren't sure exactly how you want your project to be done,
+                    Tony has the experience to help guide you through it. From concept to finishing touches we are
+                    able to do anything needed to assist you in your tile renovation or new construction projects. </p>
+                <p> Tony has completed thousands of projects over the years from small to large.
+                    He has done everything from fireplace installations, showers and backspashes to foot paths, full
+                    bathroom
+                    tear downs and reinstalls and even the occational tile repair job. His attention to detail and
+                    obvious pride
+                    in his work is what has endeared him to so many people. Not only is he well known in the broader
+                    construction
+                    community but by clients and friends of clients as well. </p>
+            </section>
 
-        </header>
+            <section class="testimonials">
 
-        <main>
-
-            <div class="banner.container"> 
-                <h1>BANNER IMAGE</h1>
-                <!-- <img class="banner"
-                    src="/home/benhain/Documents/Projects/Slowinski_tile/images/banner.jpg" />  -->
-                    
-            </div>
-
-            <section class="content">
-                <div class="a">
-                    <h1>BOX A</h1>
+                <div class="test1">
+                    <p>I had tony do tile work for me years ago, and after over a decade one of the tiles came loose
+                        after we dropped a cast iron skillet on it. I called him up and even though his schedule is
+                        tight he still made
+                        time to come take a look. I plan on hiring him for our next renovation!</p>
                 </div>
-                <div class="b">
-                    <h1>BOX A</h1>
+
+                <div class="test2">
+                    <p>I knew I wanted our new home to have tile in it but I wasn't sure how I wanted it to look. Tony
+                        gave us so
+                        many great ideas and even helped us pick our tile design, type and found options for different
+                        price points!</p>
+
                 </div>
-                <div class="c">
-                    <h1>BOX A</h1>
+
+                <div class="test3">
+                    <p> I've known Tony for years! Great guy, great work and great family! </p>
                 </div>
-                <div class="d">
-                    <h1>BOX A</h1>
+
+            </section>
+
+            <section class="gallery">
+                <h1>GALLERY SECTION</h1>
+
+                <!-- Slideshow container -->
+                <div class="slideshow-container">
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 3</div>
+                        <img src="img1.jpg" style="width:100%">
+                        <div class="text">Caption Text</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 3</div>
+                        <img src="img2.jpg" style="width:100%">
+                        <div class="text">Caption Two</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 3</div>
+                        <img src="img3.jpg" style="width:100%">
+                        <div class="text">Caption Three</div>
+                    </div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
                 </div>
             </section>
 
+        </div>
 
-        </main>
+        <div class="right-panel">
+        </div>
 
-        <footer>
-            <h1>FOOTER</h1>
-        </footer>
-    </div>
+    </main>
+    <footer>
+        <p>FOOTER</p>
+    </footer>
 </body>
 
 </html>
