@@ -1,7 +1,7 @@
 * {
   /* outline: 1px dotted red; */
   font-family: Garamond;
-  color: #666666;
+
   box-sizing: border-box;
 
 }
@@ -15,7 +15,7 @@ html {
 body {
   min-width: 100vh;
   min-height: 100vh;
-
+  color: #666666;
 
 }
 
@@ -89,7 +89,9 @@ li a:hover {
 /* Top section */
 .intro {
   background-color: #F5F5F5;
-  color: black;
+  color: #666;
+  box-shadow: 0 0 0 100vmax #F5F5F5;
+  clip-path: inset(0 -100vmax);
 
 }
 
@@ -100,7 +102,7 @@ li a:hover {
   max-width: 100%;
   flex-direction: row;
   justify-content: space-between;
-  margin: 5vh 0vh;
+  margin: 5vh 5vh;
 
 }
 
@@ -123,11 +125,11 @@ li a:hover {
   box-sizing: border-box;
 }
 
-/* Gallery section overall */
-/* .galery {
-  display: flex;
-  justify-content: center;
-} */
+
+/* Gallery section */
+.galery {
+margin-top: 5vh;
+}
 
 
 /* Slideshow container */
@@ -135,7 +137,7 @@ li a:hover {
   max-width: 400px;
   position: relative;
   margin: auto;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 
@@ -220,9 +222,10 @@ li a:hover {
 
 
 
-/* Gallery section */
 
+/* Footer section */
 footer {
+
   min-height: 15vh;
   min-width: 100vh;
   background-color: forestgreen;
@@ -230,4 +233,10 @@ footer {
 
 }
 
-/* Footer section */
+.container-foot {
+  display: grid;
+  justify-content: center;
+  align-content: space-around;
+
+}
+
